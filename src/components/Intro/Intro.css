@@ -109,6 +109,7 @@
   left: 56%;
   filter: blur(72px);
 }
+
 .blur2 {
   position: absolute;
   width: 15rem;
@@ -134,8 +135,8 @@
   }
 
   .i-name> :nth-child(3) {
-
-    width: 19rem;
+    font-size: 1rem;
+    width: auto;
   }
 
   .floatingDiv {
