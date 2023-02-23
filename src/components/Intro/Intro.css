@@ -131,7 +131,7 @@
   }
 
   .i-right> :nth-child(3) {
-    left: 31%;
+    /* left: 31%; */
   }
 
   .i-name> :nth-child(3) {
