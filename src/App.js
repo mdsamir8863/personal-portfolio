@@ -8,7 +8,7 @@ import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import Intro from './components/Intro/Intro.jsx'
+import Intro from "./components/Intro/Intro.jsx";
 // import Services from './components/Services/Services.jsx'
 import { useContext } from "react";
 import { themeContext } from "./Context";
@@ -26,7 +26,6 @@ function App() {
     >
       <Navbar />
       <Intro />
-     
       <Experience />
       <Testimonial />
       <Contact />
