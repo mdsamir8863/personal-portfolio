@@ -20,20 +20,20 @@ const navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true}>
-                Serivces
-              </Link>
-            </li>
-            <li>
               <Link to="experience" spy={true} smooth={true}>
                 Experience
               </Link>
             </li>
-            {/* <li>
-              <Link to="portfolio" spy={true} smooth={true}>
+            <li>
+              <a style={{ textDecoration:"none"}}
+                href="https://my-portfolio-pur9fwbb1-samiransari.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Protfolio
-              </Link>
-            </li> */}
+              </a>
+              <Link href="" spy={true} smooth={true}></Link>
+            </li>
             <li>
               <Link to="testimonial" spy={true} smooth={true}>
                 Testimonial
@@ -42,7 +42,7 @@ const navbar = () => {
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
+          <button className="button n-button">Contact</button>
         </Link>
       </div>
     </div>
