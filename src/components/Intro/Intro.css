@@ -84,7 +84,7 @@
 .i-right> :nth-child(3) {
   transform: scale(1);
   left: 20%;
-  bottom: 6rem;
+  bottom: 2rem;
   height: 27rem;
 }
 
@@ -171,5 +171,25 @@
     width: 100%;
     padding: 0;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .i-right> :nth-child(3) {
+    transform: scale(1);
+    left: 12%;
+    bottom: 10rem;
+    height: 37rem;
+  }
+  .i-right> :nth-child(1) {
+    transform: scale(0.9);
+    left: -2rem;
+    top: 4rem;
+  }
+  
+  .i-right> :nth-child(2) {
+    top: 0rem;
+    transform: scale(0.7);
+    left: 0rem;
   }
 }

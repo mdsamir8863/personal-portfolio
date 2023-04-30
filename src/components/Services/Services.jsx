@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 // import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 // import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+// import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -31,18 +31,18 @@ const Services = () => {
           <br />
           ispum is simpley dummy text of printing
         </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a>
+        {/* <a href={Resume} download> */}
+        <button className="button s-button">Download CV</button>
+        {/* </a> */}
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
       <div className="cards">
-          <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"React, JavaScript, Bootstrap, Css, Html, Git and Deployment"}
-          />
+        <Card
+          emoji={Glasses}
+          heading={"Developer"}
+          detail={"React, JavaScript, Bootstrap, Css, Html, Git and Deployment"}
+        />
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
