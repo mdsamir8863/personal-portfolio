@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 const navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
+      
       {/* left */}
       <div className="n-left">
         <div className="n-name">Samir</div>
@@ -25,14 +26,15 @@ const navbar = () => {
               </Link>
             </li>
             <li>
-              <a style={{ textDecoration:"none"}}
-                href="https://my-portfolio-pur9fwbb1-samiransari.vercel.app/"
+              <a
+                style={{ textDecoration: "none", fontWeight: "600" }}
+                href="https://my-portfolio-701m8xg4e-samiransari.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Protfolio
+                Portfolio
               </a>
-              <Link href="" spy={true} smooth={true}></Link>
+              {/* <Link href="" spy={true} smooth={true}></Link> */}
             </li>
             <li>
               <Link to="testimonial" spy={true} smooth={true}>
